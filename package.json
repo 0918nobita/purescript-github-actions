@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/0918nobita/purescript-github-actions/issues"
   },
-  "homepage": "https://github.com/0918nobita/purescript-github-actions#readme"
+  "homepage": "https://github.com/0918nobita/purescript-github-actions#readme",
+  "devDependencies": {
+    "purescript": "^0.14.5",
+    "spago": "^0.20.3"
+  }
 }
