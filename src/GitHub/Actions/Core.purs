@@ -5,7 +5,6 @@ import Prelude
 import Control.Monad.Except (ExceptT, throwError)
 import Data.Maybe (Maybe(..))
 import Data.String (Pattern(..), Replacement(..), replaceAll, toUpper, trim)
-import Effect (Effect)
 import Effect.Aff (Aff)
 import Effect.Class (liftEffect)
 import Effect.Class.Console (log)
@@ -44,7 +43,3 @@ group name fn = do
   res <- fn
   log "::endgroup::"
   pure res
-
-main :: Effect Unit
-main = do
-  log "🍝"
