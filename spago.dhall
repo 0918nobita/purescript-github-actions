@@ -13,11 +13,13 @@ to generate this file without the comments in this block.
 { name = "github-actions"
 , dependencies =
     [ "aff"
+    , "aff-promise"
     , "console"
     , "effect"
     , "maybe"
     , "node-buffer"
     , "node-fs"
+    , "node-path"
     , "node-process"
     , "prelude"
     , "psci-support"
