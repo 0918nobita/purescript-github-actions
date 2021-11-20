@@ -1,5 +1,7 @@
 # purescript-github-actions
 
+A PureScript library for writing GitHub custom actions.
+
 PureScript で GitHub Actions のカスタムアクションを開発するためのライブラリ
 
 ## `purescript-github-actions-toolkit` との違い
